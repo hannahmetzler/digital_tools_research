@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Biases and Reproducibility in Research"
-author: "Hannah Metzler <br><br> *CSH Vienna & Medical University of Vienna*"
+author: "Hannah Metzler"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below
@@ -32,7 +32,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
-<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
+
 ---
 
 ## Can humans predict the future? 
@@ -125,13 +125,14 @@ layout: true
 
 * [Social sciences 2018](https://www.nature.com/articles/s41562-018-0399-z): published in Nature & Science 2010-2015: 50%-67%
 
-* [SCORE](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): Expert predictions   ==>
 ]]
 .pull-right[.center-right[
-Expected replication rates: 
-```{r, echo=FALSE, out.width=500}
+* [SCORE project](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): <br> 
+Experts predict replication rates
+```{r, echo=FALSE, out.width=470}
 knitr::include_graphics("figures/Golden_scoreproject.svg")
 ```
+
 ]]
     
     
@@ -141,21 +142,27 @@ knitr::include_graphics("figures/Golden_scoreproject.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a> Begley & Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; <br> Amara & Neves 2021
+<a href="http://circres.ahajournals.org/content/116/1/116"> Review for basic and preclinical biomedical research (Begley & Ioannidis 2015); <br>
+</a> <a> Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; Amara & Neves 2021
 </a></span></div>
+
+
 
 ---
 
 # Reproduciblity in biology & medicine
 
-* [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116) <br> <br> 
-* A few examples:  <br> 
-  * [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated <br> 
-      * 53 famous findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131) replicated by 1 firm,  [11%](https://www.nature.com/articles/483531a#Tab1) by another  <br>  <br> 
-  * [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%, <br>
-      * Issues in [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) <br> <br> 
-  * Pharmacology of [antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% deviate from registered plan <br> <br> 
-  * [Brazilian Reproducibility Initiative](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) for biomedical research
+* [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated <br> 
+
+* Bayer in house replications of published findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131)
+
+* Biotech firm Amgen replicates 11% of haematology and oncology [findings](https://www.nature.com/articles/483531a)
+
+* [Antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% of studies deviate from registered plan
+
+* [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%
+  * Issues: [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) <br> <br> 
+
 
 ---
 layout: true
@@ -163,7 +170,8 @@ layout: true
 <a> Kapoor & Narazanan 2021; Cova et al., 2018; Baker 2016
 </a></span></div>
 
----
+???
+#Cut slide
 
 .pull-left[
 # Other disciplines
@@ -214,20 +222,23 @@ knitr::include_graphics("figures/manuscript-149606_1280.png")
 ]
 
 .right-column[.center-right[
-* Basic problems with common methods
-<font size="4"> <a href="https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/"> Gelman 2016
-</a></font>
-    * Researcher degrees of freedom
-    * Misunderstanding of statistical null-hypotheses testing
-    * Multiple comparisons problems + weak theories
-
-* Humans: Complex systems with many variables
 
 * Problems in the publication system: Incentives
-    * Peer review
     * Publication bias for positive findings
     * Pressure to publish <font size="4"> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010271"> Fanelli 2010; 
 <a href="https://journals.sagepub.com/doi/10.1177/1556264614552421">Tijdink et al. 2014 </a> </font>
+    * Peer review
+    
+* Basic problems with common methods <font size="4"> <a href="https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/"> Gelman 2016
+</a></font>
+  * Small sample sizes <font size="4"> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ecoj.12461"> Ioannidis et al. 2017
+</a></font> 
+  * Flexibility in data analysis   <font size="4"> <a href="https://journals.sagepub.com/doi/10.1177/2515245917747646"> Silberzahn et al. 2018</a></font>
+    <!-- * Researcher degrees of freedom -->
+    <!-- * Misunderstanding of statistical null-hypotheses testing -->
+    <!-- * Multiple comparisons problems + weak theories -->
+    
+* Humans: Complex systems with many variables
 ]]
     
 ---
@@ -324,11 +335,8 @@ layout: true
      
 ---
 layout: true
-<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
 
 ---
-
-# Concrete Solutions tomorrow!
 
 ### Acknowledgements
 
@@ -343,12 +351,11 @@ layout: true
 # Discussion
 
 * Break-out rooms with 3 people
-    * Come back in 30 minutes
-    * Summary round (until 15h)
+    * Come back in 20 minutes
+    * Summary round
 
-* Which of these biases and problems are issues in your discipline?
+* Which digital tools could be useful for your research process and in your scientific field? 
 
-* Which solutions can you imagine?
+* Which biases and problems in your field could they address?
 
-* How could digital tools be used to adress challenges and implement solutions in your discipline?
-    * Which tool for which problem/bias?
+* Any other tools or solutions you find useful?
