@@ -1,5 +1,4 @@
 ---
-subtitle: "Module 2: Digitalisation in Research" 
 title: "Introduction to Biases and Reproducibility in Research"
 author: "Hannah Metzler <br><br> *CSH Vienna & Medical University of Vienna*"
 output:
