@@ -32,13 +32,13 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * Digitally enhanced literature search and management [[slides](https://hannahmetzler.github.io/digital_tools_research/04_literature/index.html#1)]
 
-* Good documentation practices [[slides](https://hannahmetzler.github.io/digital_tools_research/04_transparency_and_reproducibility/04_documentation/slides/index.html)] [[exercise: document your repositories](https://hannahmetzler.github.io/digital_tools_research/04_documentation/slides/index.html#/8)]
+* Good documentation practices [[slides](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html)] [[exercise: document your repositories](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html#/8)]
    
 * Tools and workflows to manage collaborations
-    * Living documents [[slides](https://hannahmetzler.github.io/digital_tools_research/03_collaborations/03_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential](https://hannahmetzler.github.io/digital_tools_research/03_collaborations/03_01_living_documents/slides/index.html#/8)]
-    * Interactive and enriched research articles (Coding notebooks and executable articles)[[slides](https://hannahmetzler.github.io/digital_tools_research/04_transparency_and_reproducibility/04_05_coding_notebooks/slides/index.html)]
+    * Living documents [[slides](https://hannahmetzler.github.io/digital_tools_research/03_collaborations/03_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential](https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/8)]
+    * Interactive and enriched research articles (Coding notebooks and executable articles)[[slides](https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_02_coding_notebooks/slides/index.html)]
     
-* Licenses [[slides](https://hannahmetzler.github.io/digital_tools_research/04_transparency_and_reproducibility/04_07_licenses/slides/index.html)] [[exercise: license your research](https://hannahmetzler.github.io/digital_tools_research/04_transparency_and_reproducibility/04_07_licenses/slides/index.html#/20)]
+* Licenses [[slides](https://hannahmetzler.github.io/digital_tools_research/07_licenses/slides/index.html)] [[exercise: license your research](https://hannahmetzler.github.io/digital_tools_research/07_licenses/slides/index.html#/20)]
 
 * New forms of publication
     * Preprints and overlay journals [[slides](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html)] 
@@ -52,11 +52,11 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 To make full use of the sessions, please join the training from a computer or laptop. We will do a lot of practical exercises, which you can use to work on your own research projects. 
 
-* If you want to follow the [literature management demonstrations](https://hannahmetzler.github.io/digital_tools_research/02_literature/index.html#1):
+* If you want to follow the [literature management demonstrations](https://hannahmetzler.github.io/digital_tools_research/04_literature/index.html#1):
     * Make an account at [Zotero](https://www.zotero.org/), [install](https://www.zotero.org/download/) Zotero (Standalone) and the Connector for the browser you usually use.
     * Make an account on [ResearchRabbit](https://researchrabbitapp.com).
 
-* If you want to follow the [good documentation practices demonstration](https://hannahmetzler.github.io/digital_tools_research/04_transparency_and_reproducibility/04_04_documentation/slides/index.html): 
+* If you want to follow the [good documentation practices demonstration](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html): 
     * Make an account on [OSF](https://osf.io/) (Open Science Framework) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).
     * If you want to use the exercise for your own research: think about a project (finished or ongoing) you would like to document and bring the relevant files.
 
