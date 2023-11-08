@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Digitally Enhanced Literature Search and Management</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Hannah Metzler    CSH Vienna &amp; Medical University of Vienna" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Digitally Enhanced Literature Search and Management
+]
+.subtitle[
+## Module 2: Digitalisation in Research
+]
+.author[
+### Hannah Metzler <br><br> <em>CSH Vienna &amp; Medical University of Vienna</em>
+]
+
+---
+
+
+
+
+
+
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;&lt;a href = "www.hannahmetzler.eu"&gt; Hannah Metzler &lt;/a&gt; &lt;/span&gt;&lt;/div&gt; 
+
+
+---
+# Overview
+
+1. AI-powered &amp; open source tools for literature search to find relevant articles
+
+  * Workflow: **Google Scholar, Zotero + ResearchRabbit**
+  
+  * Finding specific articles or get an overview: **Elicit**
+
+2. Staying informed
+  * Practical exercises with these tools
+
+3. (Collaborative) Management of literature &amp; citations: **Zotero**
+
+???
+&lt;!-- --- --&gt;
+
+&lt;!-- # Open Knowledge Maps --&gt;
+
+&lt;!-- .left-column[ --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=130, fig.align='left'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_overview.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- &lt;br&gt; --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=130, fig.align='right'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_irrelevant.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=150, fig.align='left'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_concepts.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=85, fig.align='right'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_open.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ] --&gt;
+
+&lt;!-- .right-column[.center-right[ --&gt;
+&lt;!-- * Visual search engine at [openknowledgemaps.org](https://openknowledgemaps.org) --&gt;
+
+&lt;!--   * Get an overview of a research topic --&gt;
+
+&lt;!--   * Clustering similar papers  --&gt;
+&lt;!--       * Based on text similarity algorithm --&gt;
+
+&lt;!--   * Identify relevant concepts --&gt;
+&lt;!--   * Highlights open content --&gt;
+
+&lt;!-- ]] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=950} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- --- --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=950} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_maps_zoomin.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- --- --&gt;
+
+&lt;!-- # Smart literature search: scite_ --&gt;
+
+&lt;!-- * Web Of Science, Scopus, Pubmed, Google Scholar, ... --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=100, fig.align='left'} --&gt;
+&lt;!-- knitr::include_graphics("figures/scite.svg") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- * [**Scite.ai**](https://scite.ai): Platform for discovering and evaluating scientific articles --&gt;
+&lt;!-- &lt;br&gt; --&gt;
+&lt;!-- * Search within articles (not just titles/abstracts) --&gt;
+&lt;!-- * What research articles say about each other --&gt;
+&lt;!-- * Powered by Deep Learning --&gt;
+&lt;!-- &lt;br&gt;&lt;br&gt; --&gt;
+&lt;!-- * Smart Citations:  --&gt;
+&lt;!--   * Displays the context of the citation --&gt;
+&lt;!--   * Classification: supporting or contrasting evidence for the cited claim --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- ## Scite_: Smart citations --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=800} --&gt;
+&lt;!-- knitr::include_graphics("figures/smart-citations-illo.svg") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!--  Source: Scite.ai --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Useful Scite_ features: search &amp; reports --&gt;
+
+&lt;!-- * Literature [search](https://scite.ai/search?q=power%20posing) with smart citations --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=1000} --&gt;
+&lt;!-- knitr::include_graphics("figures/scite_search.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- * [Citation reports](https://scite.ai/reports/power-posing-1L19pj) on a publication --&gt;
+&lt;!--     * Citation type: Contrasting, supporting, mentioning --&gt;
+&lt;!--     * Citation section: Introduction, methods, results, discussion --&gt;
+&lt;!--     * Publication type: preprint, article, book --&gt;
+&lt;!--     * Self-cite vs. independent --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Useful Scite_ features: checks &amp; add-on --&gt;
+
+&lt;!-- * Upload documents to [check the reliability of references](https://scite.ai/reference-check/c1c9bbe2-976a-4adb-9d02-fa173329bf3a) --&gt;
+&lt;!--     * Stop citing retracted or heavily disputed papers unintentionally --&gt;
+&lt;!-- &lt;br&gt;&lt;br&gt; --&gt;
+&lt;!-- * Alerts for citations, publications or research claims --&gt;
+&lt;!-- &lt;br&gt;&lt;br&gt; --&gt;
+&lt;!-- * [Browser extension](https://scite.ai/extension-install) --&gt;
+&lt;!--     * e.g. on Google Scholar: --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=1000} --&gt;
+&lt;!-- knitr::include_graphics("figures/googlescholar_scite.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Useful Scite_ features: visualize ciations --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=800} --&gt;
+&lt;!-- knitr::include_graphics("figures/scite_visualize.png") --&gt;
+&lt;!-- ``` --&gt;
+
+---
+
+# Google Scholar
+
+.pull-left[
+* Includes all content (pre-prints etc)
+
+* Ranks articles by citation count
+
+* Researcher profiles with all references
+
+* Adds content immediately: good for alerts
+  * Use very specific keywords or important authors
+]
+
+.pull-right[
+&lt;img src="figures/googlescholar.png" width="600" /&gt;
+]
+---
+
+## If Google Scholar does not find the pdf...
+
+* Google Scholar usually finds open access version of articles behind paywalls
+
+  * Repositories
+  * Personal website
+
+#### Other ways to access articles: 
+
+* [CORE](https://core.ac.uk) (Plugin + Website): &amp;ensp;
+&lt;img src="figures/core.svg" width="60" /&gt;
+      * Locate free versions of articles behind paywall
+      
+* Absolutely never use Sci-Hub!
+
+---
+name: researchrabbit
+
+# Smart literature search: ResearchRabbit
+
+&lt;br&gt;
+&lt;img src="figures/researchrabbit_logo.png" width="200" style="display: block; margin: auto;" /&gt;
+&lt;br&gt; 
+
+* ["Spotify" for papers](https://researchrabbitapp.com)
+
+* Discover papers via recommendations based on articles you chose
+
+* Visualize paper networks: topic, citations, references
+
+* Collaboration networks: Discover research teams &amp; their work
+
+* Timelines, earlier &amp; later work
+
+---
+
+&lt;img src="figures/research_rabbit.png" width="950" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figures/research_rabbit_authors.png" width="850" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Other ResearchRabbit features
+.pull-left[
+Personalized alerts on new content
+
+Comments/annotations
+
+&lt;img src="figures/research_rabbit_alerts.png" width="250" /&gt;
+&lt;img src="figures/research_rabbit_comments.png" width="250" /&gt;
+]
+.pull-right[
+Share collections
+
+&lt;img src="figures/research_rabbit_share.png" width="320" style="display: block; margin: auto;" /&gt;
+]
+
+
+???
+
+# ResearchRabbit vs. scite_
+
+* Scite: smart citations
+    * evidence for claims + context
+    * 7.99$/month
+    * Useful for reviews/meta-analyses
+    
+* ResearchRabbit: smart recommendations
+    * citation and author networks
+    * free
+    
+---
+name: workflow
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://twitter.com/rdpalacio/status/1601640985858957312"&gt; Workflow: Ruben Dario on Twitter &lt;/a&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+---
+
+## Literature search workflow
+
+* [Zotero](www.zotero.org): powerful open source literature management
+  * Organizes articles into collections (per topic or project)
+
+.right-column[.center-right[
+1. Find highly cited articles with Google Scholar
+2. Open on publisher website &amp; import to Zotero collection
+3. Sync the collection with ResearchRabbit
+4. Explore recommendations via ResearchRabbit
+5. Add papers to Zotero collection via ResearchRabbit
+
+&lt;img src="figures/zotero_sync_researchrabbit.png" width="750" /&gt;
+]]
+
+.left-column[
+#### Workflow
+&lt;img src="figures/zotero_addtocollection_browser.png" width="200" /&gt;
+]
+
+---
+layout: true
+name: elicit
+&lt;div class="my-footer"&gt;&lt;span&gt;&lt;a href = "www.hannahmetzler.eu"&gt; Hannah Metzler &lt;/a&gt; &lt;/span&gt;&lt;/div&gt; 
+
+---
+
+# [Elicit: The AI research assistant](www.elicit.org)
+
+&lt;img src="figures/elicit_start.png" width="1000" /&gt;
+---
+
+# [Elicit](www.elicit.org): useful features
+
+- Can help you find specific studies with advanced filters
+  - Comparison Google Scholar: finds highly cited/central papers
+  
+- Summarizes abstracts (also across several papers)
+.pull-left[.center-left[
+- Overview of
+
+  - Interventions
+  - Outcome measures
+  - Sample size
+  ]]
+.pull-right[
+- Study information
+
+  - Sample description
+  - Trustworthiness
+  - How is it cited?
+  - Find information within paper
+]
+
+---
+
+## Paper overview 
+
+&lt;img src="figures/elicit_overview.png" width="1300" /&gt;
+---
+
+## Intervention, outcome measure and sample size
+
+&lt;img src="figures/elicit_overview2.png" width="1300" /&gt;
+
+---
+
+## Study information 
+
+.pull-left[
+&lt;img src="figures/elicit_studyinfo.png" width="570" /&gt;
+]
+.pull-right[
+&lt;img src="figures/elicit_citations_in_context.png" width="550" /&gt;
+]
+---
+
+## Find information in paper
+
+.pull-left[
+
+Enter a question/keyword
+
+&lt;img src="figures/elicit_questions.png" width="570" /&gt;
+]
+.pull-right[
+
+Text is highlighted in the source
+
+&lt;img src="figures/elicit_question_anwers.png" width="550" /&gt;
+]
+---
+
+## Find specific types of papers
+
+.pull-left[
+
+With keywords
+
+&lt;img src="figures/elicit_keyword_filters.png" width="570" /&gt;
+]
+.pull-right[
+
+With filters
+&lt;img src="figures/elicit_RCTFilter.png" width="450" /&gt;
+]
+---
+
+## Summaries across small sets of studies
+
+&lt;img src="figures/elicit_papersummaries.png" height="500" /&gt;
+
+
+---
+
+# Staying informed: Exercise (15 min)
+
+* Topic 1:  [ResearchRabbit](https://researchrabbit.ai)
+      * Create a collection &amp; explore steps from [overview slide](#researchrabbit)
+      * Set an alert
+      
+* Topic 2: [Elicit](www.elicit.org): Explore all steps from [slides](#elicit) with a question of your interest
+
+* Topic 3: Implement the [workflow](#workflow) 
+  * Find a highly cited paper on [Google Scholar](https://scholar.google.com/) or a specific paper on [Elicit](www.elicit.org)
+  * Add to a Zotero collection, and sync it with [ResearchRabbit](https://researchrabbit.ai)
+  * Expand your collection
+
+* ([Twitter](www.twitter.com): Follow the most important scholars for your research topic)
+
+---
+
+# Break? 
+
+* Literature management with Zotero after the break
+
+* To follow along in Zotero: 
+
+  * Installed Zotero and Connector plugin for browser?
+  
+  * https://www.zotero.org/download/
+
+
+---
+
+# (Collaboratively) Managing literature
+
+.pull-left[
+* Mendeley, Endnote, F1000, Citavi
+* [**Zotero**](https://www.zotero.org/): Open source &amp; flexible
+
+* **Store, organize and cite papers**
+* Store PDFs in Zotero or with links to folders
+
+* Online storage for access everywhere
+]
+
+.pull-right[
+* Organize: Collections &amp; tags
+
+* Citing: 
+  * Add-ins for Word, GoogleDocs
+  * Automated bibliographies
+  
+* Group libraries for sharing literature
+
+* Marking PDFs &amp; automatic notes
+]
+
+---
+
+&lt;img src="figures/zotero_overview.png" width="1050" /&gt;
+
+---
+
+## Zotero features on previous slide
+
+* My Library
+* Collections
+  * Subcollections &lt;br&gt; &lt;br&gt;
+* Items (articles)
+  * Snapshot of website (available offline)
+  * Attached PDFs (automatic option) &lt;br&gt; &lt;br&gt;
+* Item features: 
+  * Info
+    * Item Type: article, book chapter, report, pre-print, conference paper etc
+  * Notes
+  * Tags
+  * Related
+
+---
+
+## Zotero: Getting papers into your library
+
+.pull-left[
+* Via the browser extension:  
+&lt;img src="figures/zotero_add_browser.png" width="400" /&gt;
+&lt;br&gt;&lt;br&gt;
+* Pull PDFs into Zotero
+  * Automatic meta-data &amp; renaming
+]
+
+.pull-right[
+* With item identifier (ISBN, DOI): 
+&lt;img src="figures/zotero_add_doi.png" width="500" /&gt;
+
+* Papers get added into currently active collection
+]
+* Most scientific databases automatically add keywords as tags
+
+---
+
+## Zotero: Collections &amp; tags for organizing papers
+
+* Collections: each item can be in several collections &lt;br&gt;
+
+.left-column[
+* Tags
+* Draw onto a tag to tag many items at once
+&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
+* Colour tags
+]
+.right-column[.center-right[
+&lt;img src="figures/zotero_tags.png" width="800" /&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;img src="figures/zotero_colour_tags.png" width="250" /&gt;
+&lt;img src="figures/zotero_colour_tags_papers.png" width="500" /&gt;
+]]
+
+---
+
+# Zotero: Features of each item
+
+* Related articles &amp;ensp;
+&lt;img src="figures/zotero_related_entries.png" width="730" /&gt;
+
+* Automatic summary notes with annotations from PDF &amp;ensp; &lt;br&gt;
+  * Right click on PDF: Add notes from annotations
+
+* Press Alt to find collection of an item &amp;ensp;
+&lt;img src="figures/zotero_findcollection.png" width="500" /&gt;
+
+* Drag-&amp;-drop PDF or item entry from Zotero to send/move files or reference
+
+---
+
+## Notes &amp; Annotating PDFs
+
+&lt;img src="figures/zotero_notes.png" width="1000" /&gt;
+
+&lt;img src="figures/zotero_pdf_annotating.png" width="1000" /&gt;
+
+---
+
+## Zotero: Syncing libarary &amp; PFDs
+
+.left-column[
+* 300MB: free
+
+* 2GB: 20 Euro/year
+
+* 6GB: 60 Euro/year
+]
+
+.right-column[.center-right[
+&lt;img src="figures/zotero_syncing.png" width="450" /&gt;
+]]
+
+
+---
+
+# Search and saved searches
+
+* Quick search: 
+  * speed it up by starting with " in large collections
+
+&lt;img src="figures/zotero_search.png" width="250" style="display: block; margin: auto;" /&gt;
+
+.pull-left[
+* Advanced search: 
+    * can be saved
+    * constantly updating collection
+]
+.pull-right[
+&lt;img src="figures/zotero_advanced_search_window.png" width="550" style="display: block; margin: auto 0 auto auto;" /&gt;
+]
+---
+
+## Group libraries
+
+.pull-left[
+* Invite other users to group on [zotero.org](https://www.zotero.org/groups)
+  * for collaborative projects &lt;br&gt;
+]
+.pull-right[
+in Zotero:
+&lt;img src="figures/zotero_group_libraries.png" width="300" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+* Make collections available online
+  * private or public
+  * read or edit access
+  * for sharing literature lists/PDFs or discover sources of others
+  
+---
+
+## Zotero: Citations
+
+.pull-left[.center-left[
+* Add-ins for Word, Libre Office, Google Docs are included
+  * Exporting BibTex citations for Overleaf &amp; Latex
+&lt;br&gt;
+
+* Automated reference lists
+&lt;br&gt; &lt;br&gt;
+
+* Quickly switch between citation styles
+]]
+.pull-right[.center-right[
+GoogleDoc: 
+&lt;img src="figures/zotero_googledoc.png" width="400" /&gt;
+&lt;img src="figures/zotero_reflist.png" width="600" /&gt;
+&lt;img src="figures/zotero_citation_styles.png" width="350" /&gt;
+]]
+
+---
+
+## Zotero: Citation tips
+
+.pull-left[.center-left[
+* Suppress authors, add text before after citation in brackets
+
+* Word/Libre Office quicker than Google Docs &lt;br&gt;
+  * Switching is difficult
+
+* Set language to English when choosing citation style
+
+* In Bibliography: check item type in Zotero if formatting not correct (article, book, etc)
+]]
+.pull-right[.center-right[
+&lt;img src="figures/zotero_suppress_prefix.png" width="500" /&gt;
+]]
+
+???
+
+## Combine Zotero &amp; Scite
+
+* [Zotero plug-in](https://scite.ai/blog/introducing-the-scite-plug-in-for-zotero-61189d66120c): extra columns for citations of articles in your library
+  * Right click to view Scite report
+
+&lt;img src="figures/zotero-scite.png" width="1100" /&gt;
+
+---
+
+## Zotero: More resources 
+
+* [Documentation](https://www.zotero.org/support/start)
+
+* [Quick start guide](https://www.zotero.org/support/quick_start_guide)
+
+* [12 must know Zotero tips and techniques](
+http://ideophone.org/12-zotero-tips-and-techniques)
+
+* [Numerous other Add-ons](https://www.zotero.org/support/plugins)
+
+---
+
+## Zotero exercises for day 2
+
+.pull-left[
+* Add a paper to a collection: 
+  * via plugin on publisher website
+  * by pulling in a PDF
+  * via DOI
+  
+* Add keywords in "Tags"
+* Create a color tag "to read" in red
+
+* Link it to a second related article
+
+* Make &amp; save an advanced search
+]
+
+.pull-right[
+* Open a PDF within Zotero, mark important sentences/keywords
+  * Add note from annotations
+* In a Google or Word doc
+  * Add a few citations, with/wo author
+  * Create a reference list
+  
+* For [Obsidian](https://obsidian.md/) users: check out step 10-15 in this [tutorial](https://twitter.com/rdpalacio/status/1601641098535129088)
+  
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

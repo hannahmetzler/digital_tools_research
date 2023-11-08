@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script>
+	  Reveal.initialize({
+	    plugins: [ RevealMarkdown ]
+	  });
+	</script>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p style="font-size:40px"> Module 2: Digitalisation in Research<p>
+					<p style="font-size:70px"> Living documents<p>
+					<p style="font-size:30px"> Jana Lasser<p>
+					<p style="font-size:30px"> <em>TU Graz & CSH Vienna</em><p>
+					<p style="font-size:30px"> 2022-12-15<p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Why living documents<p>
+						<p style="font-size:35px"><em> Writing permeates all the activities of a researcher.</em></p>
+						<p class="fragment fade-in"; style="font-size:35px"><span style="color:#C0392B">Writing</span> grant proposals </p>
+						<p class="fragment fade-in"; style="font-size:35px"><span style="color:#C0392B">Writing</span> articles </p>
+						<p class="fragment fade-in"; style="font-size:35px"><span style="color:#C0392B">Writing</span> reports </p>
+						<p class="fragment fade-in"; style="font-size:35px"><span style="color:#C0392B">Writing</span> lecture notes </p>
+						<p class="fragment fade-in"; style="font-size:35px"><span style="color:#C0392B">Writing</span> minutes </p>
+						<p class="fragment fade-in"; style="font-size:35px"> ... </p>
+						<p class="fragment fade-in"; style="font-size:35px"> The times when writing was a solitary activity are long gone. </p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Zombie documents<p>
+					<img src="img/zombie_documents.svg"; width="400">
+					<p style="font-size:35px"> <em>They are dead, they multiply and they haunt you.</em></p>
+				</section>
+
+				<section>
+					<p style="font-size:55px"> Living documents are <span style="color:#C0392B">dynamically</span> updated and can be edited by <span style="color:#C0392B">more than one person</span> at the <span style="color:#C0392B">same time</span>.<p>
+				</section>
+
+				<section data-transition="slide-in none">
+					<p style="font-size:60px"> The challenge of concurrency<p>
+					<img src="img/concurrency_1.svg"; width="600">
+				</section>
+				<section data-transition="none slide-out">
+					<p style="font-size:60px"> The challenge of concurrency<p>
+					<img src="img/concurrency_2.svg"; width="600">
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Example implementations<p>
+					<p> <a href="https://www.google.com/intl/de_at/docs/about/">Google Docs</a></p>
+					<p> (Microsoft) Office documents in <a href="https://www.microsoft.com/de-at/microsoft-365/onedrive/online-cloud-storage">OneCloud</a> or documents in <a href="https://nextcloud.com/">Nextcloud</a></p>
+					<p> <a href="https://de.overleaf.com/">Overleaf</a> or <a href="https://www.authorea.com/">Authorea </a> for scientific writing</p>
+					<p>Pads (<a href="https://hackmd.io/">HackMD</a>, <a href="https://pad.riseup.net/">riseup</a>) for quick and easy writing</p>
+					<p> Wikis (<a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>)</p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Prominent examples<p>
+					<p> <span style="color:#C0392B">Google Docs</span> [grants, articles, minutes]</p>
+					<p> <span style="color:#C0392B">(Microsoft) Office documents</span> [grants, articles, minutes]</p>
+					<p> <span style="color:#C0392B">Overleaf & Authorea</span> [grants, articles]</p>
+					<p> <span style="color:#C0392B">Pads</span> [idea generation, documentation]</p>
+					<p> <span style="color:#C0392B">Wikis</span> [knowledge transfer, science communication]</p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Features of living documents<p>
+					<p style="font-size: 35px;"> Parallel editing</p>
+					<p style="font-size: 35px;"> Exporting</p>
+					<p style="font-size: 35px;"> Access control (reading, editing)</p>
+					<p style="font-size: 35px;"> Commenting</p>
+					<p style="font-size: 35px;"> Version control</p>
+					<p style="font-size: 35px;"style="font-size: 35px;"> Reference management integration </p>
+					<p style="font-size: 35px;"> Local hosting </p>
+					<p style="font-size: 35px;"> Price </p>
+				</section>
+
+				<section>
+					<em> All services support <span style="color:#C0392B">parallel editing</span> and <span style="color:#C0392B">exporting</span>.</em><br><br>
+					<font size="6">
+						<table>
+					    	<thead><tr>
+					            <th>Service</th>
+					            <th>Access control</th>
+					            <th>Comment</th>
+					            <th>Version Control</th>
+					            <th>Refs</th>
+					            <th>Local?</th>
+					            <th>Price</th>
+					        </tr></thead>
+					        <tbody>
+					      	<tr>
+					            <td>gDocs</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E66B4D; text-align:center">-</td>
+					            <td style="background-color:#7DCEA0; text-align:center">free</td>
+					        </tr>
+					      	<tr>
+					            <td>office</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#E66B4D; text-align:center">paid</td>
+					        </tr>
+					      	<tr>
+					            <td>overleaf</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E66B4D; text-align:center">-</td>
+					            <td style="background-color:#E6AE4D; text-align:center">freemium</td>
+					        </tr>
+					      	<tr>
+					            <td>authorea</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E66B4D; text-align:center">-</td>
+					            <td style="background-color:#E6AE4D; text-align:center">freemium</td>
+					        </tr>
+					      	<tr>
+					            <td>hackMD</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E66B4D; text-align:center">-</td>
+					            <td style="background-color:#E66B4D; text-align:center">-</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#E6AE4D; text-align:center">freemium</td>
+					        </tr>
+					      	<tr>
+					            <td>wiki</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#E6AE4D; text-align:center">~</td>
+					            <td style="background-color:#7DCEA0; text-align:center">+</td>
+					            <td style="background-color:#7DCEA0; text-align:center">free</td>
+					        </tr>
+					    	</tbody>
+					    </table>
+					</font>
+				</section>
+
+				<section>
+					<p style="font-size:50px">  <span style="color:#C0392B">Exercise [15 min]</span><p>
+					<p> Do one out of the following:</p>
+					<p style="text-align: left; padding-left: 1em; padding-right: 1em; font-size:40px; padding-bottom:1em"><em> Pick a  <span style="color:#C0392B">service you don't know</span> that could be useful for you, make an account, create a document, write a sentence, insert a comment and invite another user.</em></p>
+					<p style="text-align: left; padding-left: 1em; padding-right: 1em; font-size:40px"><em> Pick a  <span style="color:#C0392B">function you don't know</span> out of [version control, reference integration, local hosting] and try to figure out how to do it for a service you regularly use.</em></p> 
+				</section>
+
+				<section>
+					<p style="font-size:50px; padding-bottom:1em">  <span style="color:#C0392B">Show & tell</span><p>
+					<p style="font-size:35px; padding-bottom:1em"> &#8594 What do you like about a particular service you use regularly?</p>
+					<p style="font-size:35px; padding-bottom:1em"> &#8594 How much does accessbility of a service matter to you and which services are (not) very accessible in your epxerience?</p>
+					<p style="font-size:35px"> &#8594 What file formats do you usually export to and why?</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
