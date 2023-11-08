@@ -3,7 +3,7 @@
   <head>
     <title>Introduction to Biases and Reproducibility in Research</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Hannah Metzler    CSH Vienna &amp; Medical University of Vienna" />
+    <meta name="author" content="Hannah Metzler" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
@@ -15,11 +15,8 @@ class: center, middle, inverse, title-slide
 .title[
 # Introduction to Biases and Reproducibility in Research
 ]
-.subtitle[
-## Module 2: Digitalisation in Research
-]
 .author[
-### Hannah Metzler <br><br> <em>CSH Vienna &amp; Medical University of Vienna</em>
+### Hannah Metzler
 ]
 
 ---
@@ -30,7 +27,7 @@ class: center, middle, inverse, title-slide
 
 
 layout: true
-&lt;div class="my-footer"&gt;&lt;span&gt;&lt;a href = "www.hannahmetzler.eu"&gt; Hannah Metzler &lt;/a&gt; &lt;/span&gt;&lt;/div&gt; 
+
 ---
 
 ## Can humans predict the future? 
@@ -117,11 +114,12 @@ layout: true
 
 * [Social sciences 2018](https://www.nature.com/articles/s41562-018-0399-z): published in Nature &amp; Science 2010-2015: 50%-67%
 
-* [SCORE](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): Expert predictions   ==&gt;
 ]]
 .pull-right[.center-right[
-Expected replication rates: 
-&lt;img src="figures/Golden_scoreproject.svg" width="500" /&gt;
+* [SCORE project](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): &lt;br&gt; 
+Experts predict replication rates
+&lt;img src="figures/Golden_scoreproject.svg" width="470" /&gt;
+
 ]]
     
     
@@ -131,21 +129,27 @@ Expected replication rates:
 ---
 layout: true
 &lt;div class="my-footer"&gt;&lt;span&gt;
-&lt;a&gt; Begley &amp; Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley &amp; Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; &lt;br&gt; Amara &amp; Neves 2021
+&lt;a href="http://circres.ahajournals.org/content/116/1/116"&gt; Review for basic and preclinical biomedical research (Begley &amp; Ioannidis 2015); &lt;br&gt;
+&lt;/a&gt; &lt;a&gt; Errington et al. 2014; Prinz et al. 2011; Begley &amp; Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; Amara &amp; Neves 2021
 &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+
 
 ---
 
 # Reproduciblity in biology &amp; medicine
 
-* [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116) &lt;br&gt; &lt;br&gt; 
-* A few examples:  &lt;br&gt; 
-  * [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated &lt;br&gt; 
-      * 53 famous findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131) replicated by 1 firm,  [11%](https://www.nature.com/articles/483531a#Tab1) by another  &lt;br&gt;  &lt;br&gt; 
-  * [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%, &lt;br&gt;
-      * Issues in [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) &lt;br&gt; &lt;br&gt; 
-  * Pharmacology of [antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% deviate from registered plan &lt;br&gt; &lt;br&gt; 
-  * [Brazilian Reproducibility Initiative](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) for biomedical research
+* [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated &lt;br&gt; 
+
+* Bayer in house replications of published findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131)
+
+* Biotech firm Amgen replicates 11% of haematology and oncology [findings](https://www.nature.com/articles/483531a)
+
+* [Antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% of studies deviate from registered plan
+
+* [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%
+  * Issues: [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) &lt;br&gt; &lt;br&gt; 
+
 
 ---
 layout: true
@@ -153,7 +157,8 @@ layout: true
 &lt;a&gt; Kapoor &amp; Narazanan 2021; Cova et al., 2018; Baker 2016
 &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
 
----
+???
+#Cut slide
 
 .pull-left[
 # Other disciplines
@@ -200,20 +205,23 @@ layout: true
 ]
 
 .right-column[.center-right[
-* Basic problems with common methods
-&lt;font size="4"&gt; &lt;a href="https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/"&gt; Gelman 2016
-&lt;/a&gt;&lt;/font&gt;
-    * Researcher degrees of freedom
-    * Misunderstanding of statistical null-hypotheses testing
-    * Multiple comparisons problems + weak theories
-
-* Humans: Complex systems with many variables
 
 * Problems in the publication system: Incentives
-    * Peer review
     * Publication bias for positive findings
     * Pressure to publish &lt;font size="4"&gt; &lt;a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010271"&gt; Fanelli 2010; 
 &lt;a href="https://journals.sagepub.com/doi/10.1177/1556264614552421"&gt;Tijdink et al. 2014 &lt;/a&gt; &lt;/font&gt;
+    * Peer review
+    
+* Basic problems with common methods &lt;font size="4"&gt; &lt;a href="https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/"&gt; Gelman 2016
+&lt;/a&gt;&lt;/font&gt;
+  * Small sample sizes &lt;font size="4"&gt; &lt;a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ecoj.12461"&gt; Ioannidis et al. 2017
+&lt;/a&gt;&lt;/font&gt; 
+  * Flexibility in data analysis   &lt;font size="4"&gt; &lt;a href="https://journals.sagepub.com/doi/10.1177/2515245917747646"&gt; Silberzahn et al. 2018&lt;/a&gt;&lt;/font&gt;
+    &lt;!-- * Researcher degrees of freedom --&gt;
+    &lt;!-- * Misunderstanding of statistical null-hypotheses testing --&gt;
+    &lt;!-- * Multiple comparisons problems + weak theories --&gt;
+    
+* Humans: Complex systems with many variables
 ]]
     
 ---
@@ -306,11 +314,8 @@ layout: true
      
 ---
 layout: true
-&lt;div class="my-footer"&gt;&lt;span&gt;&lt;a href = "www.hannahmetzler.eu"&gt; Hannah Metzler &lt;/a&gt; &lt;/span&gt;&lt;/div&gt; 
 
 ---
-
-# Concrete Solutions tomorrow!
 
 ### Acknowledgements
 
@@ -325,15 +330,14 @@ layout: true
 # Discussion
 
 * Break-out rooms with 3 people
-    * Come back in 30 minutes
-    * Summary round (until 15h)
+    * Come back in 20 minutes
+    * Summary round
 
-* Which of these biases and problems are issues in your discipline?
+* Which digital tools could be useful for your research process and in your scientific field? 
 
-* Which solutions can you imagine?
+* Which biases and problems in your field could they address?
 
-* How could digital tools be used to adress challenges and implement solutions in your discipline?
-    * Which tool for which problem/bias?
+* Any other tools or solutions you find useful?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
