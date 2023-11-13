@@ -73,33 +73,6 @@ knitr::include_graphics("figures/curtain-263731_1920.jpg")
 Exp 1: 53% accuracy (better than chance), interpretation: physiolocial sexual arousal 2-3 seconds before the picture <br><br>
 Exp 2: Visualize words, surprise recall test, then type 24 random words (memory) - students had better recall for the words they were later asked to type in
 
-Make this
-
----
-layout: true
-<div class="my-footer"><span>
-<a href="https://journals.sagepub.com/doi/full/10.1177/0956797611417632"> Simmons et al. 2011
-</a></span></div>
-
----
-
-# False positive psychology
-
-* Significant finding in psychology: p <.05
-
-* False positive: statistically **significant result** if the **effect is not real**
-
-* Simulations of analytic flexilibity or __researcher degrees of freedom__
-
-    1. 2 outcome variables
-    2. Add 10 more observations
-    3. Control for gender or interaction gender x treatment
-    4. Dropping one of 3 conditions
-  
-* False positive probability increases **from 5% to 60.7%** if all 4 combined
-
-* Try it yourself: [P-hacking app](http://shinyapps.org/apps/p-hacker/)
-
 ---
 layout: true
 <div class="my-footer"><span>
@@ -108,7 +81,7 @@ layout: true
 
 ---
 
-# Only one negative example? <br> Only psychology?
+## Only one negative example? Only psychology?
 
 .left-column[
 ```{r, echo=FALSE, out.width=200}
@@ -292,7 +265,33 @@ knitr::include_graphics("figures/manuscript-149606_1280.png")
     
 * Humans: Complex systems with many variables
 ]]
-    
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href="https://journals.sagepub.com/doi/full/10.1177/0956797611417632"> Simmons et al. 2011
+</a></span></div>
+
+---
+
+# False positive psychology
+
+* Significant finding in psychology: p <.05
+
+* False positive: statistically **significant result** if the **effect is not real**
+
+* Simulations of analytic flexilibity or __researcher degrees of freedom__
+
+    1. 2 outcome variables
+    2. Add 10 more observations
+    3. Control for gender or interaction gender x treatment
+    4. Dropping one of 3 conditions
+  
+* False positive probability increases **from 5% to 60.7%** if all 4 combined
+
+* Try it yourself: [P-hacking app](http://shinyapps.org/apps/p-hacker/)
+
+
 ---
 layout: true
 <div class="my-footer"><span>
@@ -346,15 +345,15 @@ layout: true
 
 ---
 
-# Biases in Research (non-exhaustive list)
+# Some biases in research
 
 * Selection & confirmation bias in literature search & interpretation
 
-* Experimenter bias (e.g. [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
+* Experimenter bias (double blind clinical trials)
 
 * Poor quality control & documentation
 
-* Results analysis & interpretation: p-hacking, ignoring alternative explanations
+* Results analysis & interpretation: [p-hacking](http://shinyapps.org/apps/p-hacker/), ignoring alternative explanations
 
 * Story telling: Hypothesizing/justifying after results are known <br> ([HARKing, JARKing](https://www.nature.com/articles/526182a))
 
@@ -362,7 +361,8 @@ layout: true
 
 * Avoiding null-results & non-replications
 
----
+???
+* Psychology biases [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
 
 <!-- # Biases throughout the research process -->
 
@@ -371,6 +371,8 @@ layout: true
 <!-- ``` -->
 <!-- [Crüwell et al. 2018](https://osf.io/cfzyx) -->
 <!-- --- -->
+
+---
 
 # What do we do about all of this?
 
@@ -390,7 +392,24 @@ layout: true
 
 ---
 
-### Acknowledgements
+# Digital tools...
+
+* Enable open science
+
+* Help us protect ourselves from biases
+
+* Enable large collaborations
+
+* Enable new forms of publication
+
+
+---
+
+# Questions?
+
+<br><br><br>
+
+#### Acknowledgements
 
 * Some slides based on presentations by Alex Cristia <br> (Ecole Normale Supérieure, Paris)
 
@@ -410,4 +429,4 @@ layout: true
 
 * Which biases and problems in your field could they address?
 
-* Any other tools or solutions you find useful?
+* Any other tools or solutions you found useful?

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Introduction to Biases and Reproducibility in Research</title>
+    <title>Introduction to Biases and  Reproducibility in Research</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Hannah Metzler" />
+    <meta name="author" content="Hannah Metzler    Complexity Science Hub &amp; Meduni Vienna" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
@@ -13,10 +13,13 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Introduction to Biases and Reproducibility in Research
+# Introduction to Biases and <br>Reproducibility in Research
 ]
 .author[
-### Hannah Metzler
+### Hannah Metzler <br><br> Complexity Science Hub &amp; Meduni Vienna
+]
+.date[
+### www.hannahmetzler.eu
 ]
 
 ---
@@ -27,49 +30,39 @@ class: center, middle, inverse, title-slide
 
 
 layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+Image by &lt;a href="https://pixabay.com/users/peggy_marco-1553824/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1015484"&gt;Peggy und Marco Lachmann-Anke&lt;/a&gt; from &lt;a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1015484"&gt;Pixabay&lt;/a&gt;
+&lt;/span&gt;&lt;/div&gt;
 
 ---
 
-## Can humans predict the future? 
-### History of the reproducibility crisis in psychology
+## History of the reproducibility crisis in psychology
 
-* [Feeling the future](https://d1wqtxts1xzle7.cloudfront.net/54466465/FeelingFuture-with-cover-page-v2.pdf?Expires=1637600022&amp;Signature=eObuIJc0SRn9JWu0Ww0FhumpxPWmIKDDHNBJ~S-XE0q4lzlYOEfQPl3gS4H~0ENTGRtZbLFGOA2jNr0BSgaLFcMFWnd~PVLN0kAgGbZKlP8-xwD5jTqiOKwqdlmZBKc3KYlDhL8gTNMfQblRsLxGXy71-hAI5G1a~pvkjAQ9rRapLGDPz23idpNP~Eh2oubGad7TJtSvYsXaBNZy~B1PmwX7gD7MtEJoX6hboc-eKUAwN7iG22U-eCFjt29I2AKE5ezvVgEGU0~keW7euzwyIkfHoPf841bmqEb3HNnMPMePbXWGXwaVuLRepIOprH0-B5NcqxXJVNvdYvvQUTuL~w__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA): Paper by prominent psychologist in top psychology journal &lt;br&gt;  &lt;br&gt; 
-&lt;center&gt;
-&lt;img src="figures/curtain-263731_1920.jpg" width="160" /&gt;
-&lt;img src="figures/curtain-263731_1920.jpg" width="160" /&gt;
-&lt;/center&gt; &lt;br&gt; 
-* Exp 1: 53% accuracy in predicting location of *erotic* images (not others) &lt;br&gt;
-* Exp 2: Better at remembering words that are repeated later in time &lt;br&gt; &lt;br&gt; 
-* 9 experiments, reviewed by 4 reviewers &amp;nbsp;&amp;nbsp; **???**
+.left-column[
+  
+&lt;img src="figures/old-1015484_1280.jpg" width="200" /&gt;
+
+&lt;img src="figures/curtain-263731_1920.jpg" width="100" /&gt;
+&lt;img src="figures/curtain-263731_1920.jpg" width="100" /&gt;
+
+]
+.right-column[
+* 2010: [Elderly walking study](https://doi.org/10.1037%2F0022-3514.71.2.230) failed to replicate
+
+  * Priming with elderly words =&gt; walking more slowly
+&lt;br&gt;&lt;br&gt;
+* 2011: [Feeling the future](https://doi.org/10.1037/a0021524): Paper by prominent psychologist in top psychology journal
+
+  * Participants could predict where *erotic* images (not others) would appear later
+
+  * 9 experiments, reviewed by 4 reviewers &amp;nbsp; **???**
+  ]
+
+
 
 ???
-Exp 1:   * Physiolocial sexual arousal 2-3 seconds before the picture &lt;br&gt;&lt;br&gt;
+Exp 1: 53% accuracy (better than chance), interpretation: physiolocial sexual arousal 2-3 seconds before the picture &lt;br&gt;&lt;br&gt;
 Exp 2: Visualize words, surprise recall test, then type 24 random words (memory) - students had better recall for the words they were later asked to type in
-
----
-layout: true
-&lt;div class="my-footer"&gt;&lt;span&gt;
-&lt;a href="https://journals.sagepub.com/doi/full/10.1177/0956797611417632"&gt; Simmons et al. 2011
-&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
-
----
-
-# False positive psychology
-
-* Significant finding in psychology: p &lt;.05
-
-* False positive: statistically **significant result** if the **effect is not real**
-
-* Simulations of analytic flexilibity or __researcher degrees of freedom__
-
-    1. 2 outcome variables
-    2. Add 10 more observations
-    3. Control for gender or interaction gender x treatment
-    4. Dropping one of 3 conditions
-  
-* False positive probability increases **from 5% to 60.7%** if all 4 combined
-
-* Try it yourself: [P-hacking app](http://shinyapps.org/apps/p-hacker/)
 
 ---
 layout: true
@@ -79,7 +72,7 @@ layout: true
 
 ---
 
-# Only one negative example? &lt;br&gt; Only psychology?
+## Only one negative example? Only psychology?
 
 .left-column[
 &lt;img src="figures/false_findings.svg" width="200" /&gt;
@@ -94,6 +87,20 @@ layout: true
 
 … the less likely the research findings are to be true.
 ]]
+
+---
+layout: true
+
+---
+
+
+&lt;img src="figures/notlimitedtopsych.png" width="500" /&gt;
+&lt;img src="figures/cancer_research.png" width="450" /&gt;
+&lt;img src="figures/drug_discovery.png" width="600" /&gt;
+&lt;img src="figures/brain_imaging.png" width="400" /&gt;
+&lt;img src="figures/economics.png" width="400" /&gt;
+&lt;img src="figures/computer_science.png" width="550" /&gt;
+&lt;img src="figures/medicine.png" width="600" style="display: block; margin: auto;" /&gt;
 
 ---
 layout: true
@@ -129,9 +136,10 @@ Experts predict replication rates
 ---
 layout: true
 &lt;div class="my-footer"&gt;&lt;span&gt;
-&lt;a href="http://circres.ahajournals.org/content/116/1/116"&gt; Review for basic and preclinical biomedical research (Begley &amp; Ioannidis 2015); &lt;br&gt;
-&lt;/a&gt; &lt;a&gt; Errington et al. 2014; Prinz et al. 2011; Begley &amp; Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; Amara &amp; Neves 2021
-&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;a href="http://circres.ahajournals.org/content/116/1/116"&gt; Review for basic and preclinical biomedical research (Begley &amp; Ioannidis 2015); &lt;/a&gt; &lt;a&gt; Errington et al. 2014; Prinz et al. 2011; Begley &amp; Ellis 2012; &lt;br&gt; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; Amara &amp; Neves 2021.
+&lt;/a&gt;
+Image by &lt;a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=48397"&gt;Clker-Free-Vector-Images&lt;/a&gt; from &lt;a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=48397"&gt;Pixabay.&lt;/a&gt;
+&lt;/span&gt;&lt;/div&gt;
 
 
 
@@ -139,15 +147,16 @@ layout: true
 
 # Reproduciblity in biology &amp; medicine
 
-* [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated &lt;br&gt; 
+* [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): [**5 of 17**](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;img src="figures/pill-48397_1280.png" width="100" /&gt;
 
-* Bayer in house replications of published findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131)
+* Bayer in house replications of published findings: [**25%**](https://www.nature.com/articles/nrd3439-c1?linkId=33568131)
 
-* Biotech firm Amgen replicates 11% of haematology and oncology [findings](https://www.nature.com/articles/483531a)
+* Biotech firm Amgen, haematology and oncology findings: [**11%**](https://www.nature.com/articles/483531a)
 
-* [Antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% of studies deviate from registered plan
+* [Antipsychotic drugs](https://www.nature.com/articles/tp2017203): **81%** of studies deviate from registered plan
 
-* [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%
+* [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: **10-40%**
   * Issues: [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) &lt;br&gt; &lt;br&gt; 
 
 
@@ -223,7 +232,33 @@ layout: true
     
 * Humans: Complex systems with many variables
 ]]
-    
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href="https://journals.sagepub.com/doi/full/10.1177/0956797611417632"&gt; Simmons et al. 2011
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# False positive psychology
+
+* Significant finding in psychology: p &lt;.05
+
+* False positive: statistically **significant result** if the **effect is not real**
+
+* Simulations of analytic flexilibity or __researcher degrees of freedom__
+
+    1. 2 outcome variables
+    2. Add 10 more observations
+    3. Control for gender or interaction gender x treatment
+    4. Dropping one of 3 conditions
+  
+* False positive probability increases **from 5% to 60.7%** if all 4 combined
+
+* Try it yourself: [P-hacking app](http://shinyapps.org/apps/p-hacker/)
+
+
 ---
 layout: true
 &lt;div class="my-footer"&gt;&lt;span&gt;
@@ -273,15 +308,15 @@ layout: true
 
 ---
 
-# Biases in Research (non-exhaustive list)
+# Some biases in research
 
 * Selection &amp; confirmation bias in literature search &amp; interpretation
 
-* Experimenter bias (e.g. [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
+* Experimenter bias (double blind clinical trials)
 
 * Poor quality control &amp; documentation
 
-* Results analysis &amp; interpretation: p-hacking, ignoring alternative explanations
+* Results analysis &amp; interpretation: [p-hacking](http://shinyapps.org/apps/p-hacker/), ignoring alternative explanations
 
 * Story telling: Hypothesizing/justifying after results are known &lt;br&gt; ([HARKing, JARKing](https://www.nature.com/articles/526182a))
 
@@ -289,7 +324,8 @@ layout: true
 
 * Avoiding null-results &amp; non-replications
 
----
+???
+* Psychology biases [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
 
 &lt;!-- # Biases throughout the research process --&gt;
 
@@ -298,6 +334,8 @@ layout: true
 &lt;!-- ``` --&gt;
 &lt;!-- [Crüwell et al. 2018](https://osf.io/cfzyx) --&gt;
 &lt;!-- --- --&gt;
+
+---
 
 # What do we do about all of this?
 
@@ -317,7 +355,24 @@ layout: true
 
 ---
 
-### Acknowledgements
+# Digital tools...
+
+* Enable open science
+
+* Help us protect ourselves from biases
+
+* Enable large collaborations
+
+* Enable new forms of publication
+
+
+---
+
+# Questions?
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+#### Acknowledgements
 
 * Some slides based on presentations by Alex Cristia &lt;br&gt; (Ecole Normale Supérieure, Paris)
 
@@ -337,7 +392,7 @@ layout: true
 
 * Which biases and problems in your field could they address?
 
-* Any other tools or solutions you find useful?
+* Any other tools or solutions you found useful?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
