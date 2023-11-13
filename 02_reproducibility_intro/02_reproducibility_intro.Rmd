@@ -1,6 +1,7 @@
 ---
-title: "Introduction to Biases and Reproducibility in Research"
-author: "Hannah Metzler"
+title: "Introduction to Biases and <br>Reproducibility in Research"
+author: "Hannah Metzler <br><br> Complexity Science Hub & Meduni Vienna"
+date: "www.hannahmetzler.eu"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below
@@ -32,29 +33,44 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
+<div class="my-footer"><span>
+Image by <a href="https://pixabay.com/users/peggy_marco-1553824/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1015484">Peggy und Marco Lachmann-Anke</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1015484">Pixabay</a>
+</span></div>
 
 ---
+
 ## History of the reproducibility crisis in psychology
 
-### Can humans predict the future? 
+.left-column[
+  
+```{r, echo = FALSE, out.width = 200}
+knitr::include_graphics("figures/old-1015484_1280.jpg")
+```
 
-Add walking elderly example (Bargh), and remove the details of Bem study
-
-* [Feeling the future](https://d1wqtxts1xzle7.cloudfront.net/54466465/FeelingFuture-with-cover-page-v2.pdf?Expires=1637600022&Signature=eObuIJc0SRn9JWu0Ww0FhumpxPWmIKDDHNBJ~S-XE0q4lzlYOEfQPl3gS4H~0ENTGRtZbLFGOA2jNr0BSgaLFcMFWnd~PVLN0kAgGbZKlP8-xwD5jTqiOKwqdlmZBKc3KYlDhL8gTNMfQblRsLxGXy71-hAI5G1a~pvkjAQ9rRapLGDPz23idpNP~Eh2oubGad7TJtSvYsXaBNZy~B1PmwX7gD7MtEJoX6hboc-eKUAwN7iG22U-eCFjt29I2AKE5ezvVgEGU0~keW7euzwyIkfHoPf841bmqEb3HNnMPMePbXWGXwaVuLRepIOprH0-B5NcqxXJVNvdYvvQUTuL~w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA): Paper by prominent psychologist in top psychology journal <br>  <br> 
-<center>
-```{r, echo=FALSE, out.width=160}
+```{r, echo=FALSE, out.width=100}
 knitr::include_graphics("figures/curtain-263731_1920.jpg")
 ```
-```{r, echo=FALSE, out.width=160}
+```{r, echo=FALSE, out.width=100}
 knitr::include_graphics("figures/curtain-263731_1920.jpg")
 ```
-</center> <br> 
-* Exp 1: 53% accuracy in predicting location of *erotic* images (not others) <br>
-* Exp 2: Better at remembering words that are repeated later in time <br> <br> 
-* 9 experiments, reviewed by 4 reviewers &nbsp;&nbsp; **???**
+
+]
+.right-column[
+* 2010: [Elderly walking study](https://doi.org/10.1037%2F0022-3514.71.2.230) failed to replicate
+
+  * Priming with elderly words => walking more slowly
+<br><br>
+* 2011: [Feeling the future](https://doi.org/10.1037/a0021524): Paper by prominent psychologist in top psychology journal
+
+  * Participants could predict where *erotic* images (not others) would appear later
+
+  * 9 experiments, reviewed by 4 reviewers &nbsp; **???**
+  ]
+
+
 
 ???
-Exp 1:   * Physiolocial sexual arousal 2-3 seconds before the picture <br><br>
+Exp 1: 53% accuracy (better than chance), interpretation: physiolocial sexual arousal 2-3 seconds before the picture <br><br>
 Exp 2: Visualize words, surprise recall test, then type 24 random words (memory) - students had better recall for the words they were later asked to type in
 
 Make this
@@ -112,6 +128,34 @@ knitr::include_graphics("figures/false_findings.svg")
 
 ---
 layout: true
+
+---
+
+
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/notlimitedtopsych.png")
+```
+```{r, echo=FALSE, out.width=450}
+knitr::include_graphics("figures/cancer_research.png")
+```
+```{r, echo=FALSE, out.width=600}
+knitr::include_graphics("figures/drug_discovery.png")
+```
+```{r, echo=FALSE, out.width=400}
+knitr::include_graphics("figures/brain_imaging.png")
+```
+```{r, echo=FALSE, out.width=400}
+knitr::include_graphics("figures/economics.png")
+```
+```{r, echo=FALSE, out.width=550}
+knitr::include_graphics("figures/computer_science.png")
+```
+```{r, echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("figures/medicine.png")
+```
+
+---
+layout: true
 <div class="my-footer"><span>
 <a> Open Science Collaboration 2015; Klein et al. 2014; Camerer et al. 2018; Camerer et al. 2016; Hensel 2021; Gordon et al. 2020
 </a></span></div>
@@ -146,9 +190,10 @@ knitr::include_graphics("figures/Golden_scoreproject.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a href="http://circres.ahajournals.org/content/116/1/116"> Review for basic and preclinical biomedical research (Begley & Ioannidis 2015); <br>
-</a> <a> Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; Amara & Neves 2021
-</a></span></div>
+<a href="http://circres.ahajournals.org/content/116/1/116"> Review for basic and preclinical biomedical research (Begley & Ioannidis 2015); </a> <a> Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012; <br> Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; Amara & Neves 2021.
+</a>
+Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=48397">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=48397">Pixabay.</a>
+</span></div>
 
 
 
@@ -156,15 +201,18 @@ layout: true
 
 # Reproduciblity in biology & medicine
 
-* [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated <br> 
+* [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): [**5 of 17**](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+```{r, echo=FALSE, out.width=100}
+knitr::include_graphics("figures/pill-48397_1280.png")
+```
 
-* Bayer in house replications of published findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131)
+* Bayer in house replications of published findings: [**25%**](https://www.nature.com/articles/nrd3439-c1?linkId=33568131)
 
-* Biotech firm Amgen replicates 11% of haematology and oncology [findings](https://www.nature.com/articles/483531a)
+* Biotech firm Amgen, haematology and oncology findings: [**11%**](https://www.nature.com/articles/483531a)
 
-* [Antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% of studies deviate from registered plan
+* [Antipsychotic drugs](https://www.nature.com/articles/tp2017203): **81%** of studies deviate from registered plan
 
-* [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%
+* [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: **10-40%**
   * Issues: [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) <br> <br> 
 
 
