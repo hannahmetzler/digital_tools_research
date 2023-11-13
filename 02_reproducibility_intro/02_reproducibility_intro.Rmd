@@ -34,9 +34,11 @@ options(htmltools.dir.version = FALSE)
 layout: true
 
 ---
+## History of the reproducibility crisis in psychology
 
-## Can humans predict the future? 
-### History of the reproducibility crisis in psychology
+### Can humans predict the future? 
+
+Add walking elderly example (Bargh), and remove the details of Bem study
 
 * [Feeling the future](https://d1wqtxts1xzle7.cloudfront.net/54466465/FeelingFuture-with-cover-page-v2.pdf?Expires=1637600022&Signature=eObuIJc0SRn9JWu0Ww0FhumpxPWmIKDDHNBJ~S-XE0q4lzlYOEfQPl3gS4H~0ENTGRtZbLFGOA2jNr0BSgaLFcMFWnd~PVLN0kAgGbZKlP8-xwD5jTqiOKwqdlmZBKc3KYlDhL8gTNMfQblRsLxGXy71-hAI5G1a~pvkjAQ9rRapLGDPz23idpNP~Eh2oubGad7TJtSvYsXaBNZy~B1PmwX7gD7MtEJoX6hboc-eKUAwN7iG22U-eCFjt29I2AKE5ezvVgEGU0~keW7euzwyIkfHoPf841bmqEb3HNnMPMePbXWGXwaVuLRepIOprH0-B5NcqxXJVNvdYvvQUTuL~w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA): Paper by prominent psychologist in top psychology journal <br>  <br> 
 <center>
@@ -54,6 +56,8 @@ knitr::include_graphics("figures/curtain-263731_1920.jpg")
 ???
 Exp 1:   * Physiolocial sexual arousal 2-3 seconds before the picture <br><br>
 Exp 2: Visualize words, surprise recall test, then type 24 random words (memory) - students had better recall for the words they were later asked to type in
+
+Make this
 
 ---
 layout: true
