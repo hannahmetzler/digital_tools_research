@@ -56,7 +56,8 @@ To make full use of the sessions, please join the training from a computer or la
 
 * If you want to follow the [literature management demonstrations](https://hannahmetzler.github.io/digital_tools_research/04_literature/index.html#1):
     * Make an account at [Zotero](https://www.zotero.org/), [install](https://www.zotero.org/download/) Zotero (Standalone) and the Connector for the browser you usually use.
-    * Make an account on [ResearchRabbit](https://researchrabbitapp.com).
+    * Make an account on [ResearchRabbit](https://researchrabbitapp.com)
+    * Make an account on [Elicit](https://elicit.com)
 
 * If you want to follow the [good documentation practices demonstration](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html): 
     * Make an account on [OSF](https://osf.io/) (Open Science Framework) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).
