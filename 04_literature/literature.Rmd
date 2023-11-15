@@ -42,9 +42,11 @@ layout: true
   
   * Finding specific articles or get an overview: **Elicit**
 
-2. Exercise
+  * Exercise with ResearchRabbit or Elicit
 
 3. (Collaborative) Management of literature & citations: **Zotero**
+
+  * (Exercise)
 
 ---
 name: researchrabbit
