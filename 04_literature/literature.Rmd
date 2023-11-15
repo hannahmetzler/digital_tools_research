@@ -167,7 +167,7 @@ layout: true
   * Select relevant study features
   * Select a filter (or use a keyword)
   * Add a custom-made column
-  * Check the part of the paper describing the feature
+  * Find the part of the paper describing the feature
 ]
 
 ---
@@ -258,7 +258,7 @@ knitr::include_graphics("figures/zotero_colour_tags_papers.png")
 ## Notes & Annotating PDFs
 
 * Automatic summary notes: Right click on PDF
-```{r, echo=FALSE, out.width=200}
+```{r, echo=FALSE, out.width=180}
 knitr::include_graphics("figures/zotero_annotations_rightclick.png")
 ```
 
@@ -266,8 +266,8 @@ knitr::include_graphics("figures/zotero_annotations_rightclick.png")
 knitr::include_graphics("figures/zotero_notes.png")
 ```
 
-```{r, echo=FALSE, out.width=1000}
-knitr::include_graphics("figures/zotero_pdf_annotating.png")
+```{r, echo=FALSE, out.width=900}
+knitr::include_graphics("figures/zotero_pdf_annotations.png")
 ```
 
 ---
