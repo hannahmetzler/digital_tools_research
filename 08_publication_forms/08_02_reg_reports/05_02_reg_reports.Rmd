@@ -139,7 +139,6 @@ knitr::include_graphics("figures/PCIRegReports.png")
 
 ---
 layout: true
-<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
 
 ---
 
