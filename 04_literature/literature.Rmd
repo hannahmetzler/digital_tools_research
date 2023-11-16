@@ -153,7 +153,7 @@ layout: true
 
 ---
 
-##  Exercise: Using AI-enhanced search tools (10 min)
+##  Exercise: Using AI-enhanced search tools (15 min)
 
 .pull-left[
 ### [ResearchRabbit](https://researchrabbit.com)
@@ -163,7 +163,7 @@ layout: true
 * Switch from Network to Timeline
 * Display an author network
 * Set an alert
-* Add an comment to a paper
+* Add a comment to a paper
 ]
 
 .pull-right[ 
