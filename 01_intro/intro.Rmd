@@ -70,7 +70,7 @@ Complexity Science Hub & Meduni Vienna <br>
 Psychology, Neuroscience & Data Science <br> <br>
 www.hannahmetzler.eu    |    metzler@csh.ac.at    |    Twitter: @hannahmetzler1
 
-???
+---
 
 ## Digital tools throughout the research process
 
@@ -105,7 +105,7 @@ layout: true
 
 ---
 
-```{r, echo=FALSE, out.width=680, fig.align='center'}
+```{r, echo=FALSE, out.width=640, fig.align='center'}
 knitr::include_graphics("figures/time_plan.png")
 ```
 
