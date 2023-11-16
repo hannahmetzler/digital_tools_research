@@ -38,20 +38,20 @@ layout: true
 
 1. AI-powered & open source tools for finding papers
 
-  * Paper recommendations & networks: **ResearchRabbit**
-  
-  * Finding specific articles or get an overview: **Elicit**
+  * Paper recommendations & networks: [**ResearchRabbit**](https://researchrabbit.com)
+
+  * Finding specific articles or get an overview: [**Elicit**](www.elicit.com)
 
   * Exercise with ResearchRabbit or Elicit
 
-3. (Collaborative) Management of literature & citations: **Zotero**
+3. (Collaborative) Management of literature & citations: [**Zotero**](www.zotero.org)
 
   * (Exercise)
 
 ---
 name: researchrabbit
 
-# Smart literature search: ResearchRabbit
+# [Smart literature search: ResearchRabbit](https://researchrabbitapp.com)
 
 <br>
 ```{r, echo=FALSE, out.width=200, fig.align='center'}
@@ -104,7 +104,7 @@ name: elicit
 
 ---
 
-# [Elicit: The AI research assistant](www.elicit.org)
+# [Elicit: The AI research assistant](www.elicit.com)
 
 ```{r, echo=FALSE, out.width=1000}
 knitr::include_graphics("figures/elicit/elicit_start.png")
@@ -150,7 +150,7 @@ layout: true
 # Pick an exercise (10 min)
 
 .pull-left[
-### [ResearchRabbit](https://researchrabbit.ai)
+### [ResearchRabbit](https://researchrabbit.com)
 * Create a collection 
 * Add 1-5 papers (DOI/Title, ResearchRabbit's keyword search)
 * Add a suggested paper to the collection
@@ -161,7 +161,7 @@ layout: true
 ]
 
 .pull-right[ 
-### [Elicit](www.elicit.org)
+### [Elicit](www.elicit.com)
   * Choose a research question
   * Delete an irrelevant paper
   * Select relevant study features
@@ -391,7 +391,9 @@ class: title-slide, middle, center
   * via DOI
   
 * Add keywords in "Tags"
-* Create a color tag "to read" in red
+* Create a color tag "to read" in red 
+
+* Select multiple tags
 
 * Link item to a related article
 ]
