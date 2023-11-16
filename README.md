@@ -39,8 +39,8 @@ Every topic will feature an introduction into the challenges and possibilities t
 * Good documentation practices [[slides](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html)] [[exercise: document your repositories](https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html#/7)]
    
 * Tools and workflows to manage collaborations
-    * Living documents [[slides](https://hannahmetzler.eu/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential]([https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/8](https://hannahmetzler.eu/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/10))]
-    * Interactive and enriched research articles (Coding notebooks and executable articles)[[slides](https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_02_coding_notebooks/slides/index.html)]
+    * Living documents [[slides](https://hannahmetzler.eu/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential](https://hannahmetzler.eu/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/10)]
+    * Interactive and enriched research articles [[slides](https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_02_coding_notebooks/slides/index.html)]
     
 * Licenses [[slides](https://hannahmetzler.github.io/digital_tools_research/07_licenses/slides/index.html)] [[exercise: license your research](https://hannahmetzler.github.io/digital_tools_research/07_licenses/slides/index.html#/20)]
 
