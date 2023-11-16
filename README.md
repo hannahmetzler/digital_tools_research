@@ -36,10 +36,10 @@ Every topic will feature an introduction into the challenges and possibilities t
         * Zotero:  [[slides](https://hannahmetzler.eu/digital_tools_research/04_literature/index.html#23)]
         * Literature search workflow with Elicit & Research Rabbit & Zotero [[slides](https://hannahmetzler.eu/digital_tools_research/04_literature/index.html#24)]
 
-* Good documentation practices [[slides](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html)] [[exercise: document your repositories](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html#/8)]
+* Good documentation practices [[slides](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html)] [[exercise: document your repositories](https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html#/7)]
    
 * Tools and workflows to manage collaborations
-    * Living documents [[slides](https://hannahmetzler.github.io/digital_tools_research/03_collaborations/03_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential](https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/8)]
+    * Living documents [[slides](https://hannahmetzler.eu/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential]([https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/8](https://hannahmetzler.eu/digital_tools_research/06_collaborations/06_01_living_documents/slides/index.html#/10))]
     * Interactive and enriched research articles (Coding notebooks and executable articles)[[slides](https://hannahmetzler.github.io/digital_tools_research/06_collaborations/06_02_coding_notebooks/slides/index.html)]
     
 * Licenses [[slides](https://hannahmetzler.github.io/digital_tools_research/07_licenses/slides/index.html)] [[exercise: license your research](https://hannahmetzler.github.io/digital_tools_research/07_licenses/slides/index.html#/20)]
@@ -48,10 +48,10 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Preprints and overlay journals [[slides](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html)] 
     * Registered reports [[slides](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_02_reg_reports/index.html)]
     * Exercises: 
-        * [[Finding out about self-archiving policies](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html#/14)]
+        * [[Finding out about self-archiving policies]](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html#/14)]
         * [[Finding reproducible journals](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_02_reg_reports/index.html#6)
         
-* Final discussion questions [[slide]](https://hannahmetzler.eu/digital_tools_research/02_reproducibility_intro/index.html#15)
+* Final discussion questions [[slide](https://hannahmetzler.eu/digital_tools_research/02_reproducibility_intro/index.html#15)]
    
 
 ## Preparation for participants
