@@ -48,8 +48,8 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Preprints and overlay journals [[slides](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html)] 
     * Registered reports [[slides](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_02_reg_reports/index.html)]
     * Exercises: 
-        * [[Finding out about self-archiving policies]](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html#/14)]
-        * [[Finding reproducible journals](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_02_reg_reports/index.html#6)
+        * [[Finding out about self-archiving policies](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_01_preprints_and_overlay_journals/slides/index.html#/14)]
+        * [[Finding reproducible journals](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_02_reg_reports/index.html#6)]
         
 * Final discussion questions [[slide](https://hannahmetzler.eu/digital_tools_research/02_reproducibility_intro/index.html#15)]
    
