@@ -106,9 +106,15 @@ name: elicit
 
 # [Elicit: The AI research assistant](www.elicit.com)
 
-```{r, echo=FALSE, out.width=1000}
+```{r, echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("figures/elicit/elicit_start.png")
 ```
+
+* Get an overview of many studies quickly
+
+* Useful for reviews, meta-analyses
+
+* Recently became subscription based (10$/month) :( but has free trial credits
 
 ---
 
@@ -147,7 +153,7 @@ layout: true
 
 ---
 
-# Using AI-enhanced search tools (10 min)
+##  Exercise: Using AI-enhanced search tools (10 min)
 
 .pull-left[
 ### [ResearchRabbit](https://researchrabbit.com)
@@ -174,25 +180,20 @@ layout: true
 
 # Managing literature - Zotero
 
-.pull-left[
-* **Store, organize and cite papers**
+* Store, organize and cite papers
 
 * [https://www.zotero.org/](https://www.zotero.org/)
 
 * Open source & flexible
 
+.pull-left[
 * Store PDFs in Zotero or with in folders (linked files)
-
 * Online storage for access everywhere
-]
-
-.pull-right[
 * Organize: Collections & tags
-
+]
+.pull-right[
 * Automatic citations & bibliographies
-
 * Group libraries for sharing literature
-
 * Marking PDFs & automatic notes
 ]
 
@@ -223,7 +224,7 @@ knitr::include_graphics("figures/zotero_add_doi.png")
 ]
 * Most scientific databases automatically add keywords as tags
 
-* Move/send: Drag-&-drop PDFs to email/folder or item entry to email/text file)
+* Move/send: Drag-&-drop PDFs to email/folder (or item entry to email/text file)
 
 ---
 
@@ -249,11 +250,6 @@ knitr::include_graphics("figures/zotero_assign_colour_tag.svg")
 
 ## Notes & Annotating PDFs
 
-* Automatic summary notes: Right click on PDF
-```{r, echo=FALSE, out.width=180}
-knitr::include_graphics("figures/zotero_annotations_rightclick.png")
-```
-
 ```{r, echo=FALSE, out.width=1000}
 knitr::include_graphics("figures/zotero_notes.png")
 ```
@@ -262,12 +258,34 @@ knitr::include_graphics("figures/zotero_notes.png")
 knitr::include_graphics("figures/zotero_pdf_annotations.png")
 ```
 
+* Automatic summary notes: Right click on PDF
+```{r, echo=FALSE, out.width=180}
+knitr::include_graphics("figures/zotero_annotations_rightclick.png")
+```
+
 ---
 layout: true
 <div class = "my-footer"><span>
 <a href="https://www.zotero.org/support/sync#alternative_syncing_solutions">Zotero syncing solutions</a>
 </span></div>
 
+---
+
+
+## Group libraries for collaborations
+
+* Invite other users to group on [zotero.org](https://www.zotero.org/groups)
+* In Zotero
+
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("figures/zotero_group_libraries.png")
+```
+* Make collections available online
+
+  * private or public
+  * read or edit access
+  * for sharing literature lists/PDFs or discover sources of others
+  
 ---
 
 ## Syncing library data & files
@@ -294,7 +312,7 @@ knitr::include_graphics("figures/zotfile_linked_folder.png")
 ```
 ]]
 
-
+???
 ## Search and saved searches
 
 * Quick search: 
@@ -317,24 +335,6 @@ knitr::include_graphics("figures/zotero_advanced_search_window.png")
 ---
 layout: true
 
----
-
-## Group libraries for collaborations
-
-.pull-left[.center-left[
-* Invite other users to group on [zotero.org](https://www.zotero.org/groups)
-]]
-.pull-right[
-in Zotero: 
-```{r, echo=FALSE, out.width=300, fig.align='left'}
-knitr::include_graphics("figures/zotero_group_libraries.png")
-```
-]
-* Make collections available online
-  * private or public
-  * read or edit access
-  * for sharing literature lists/PDFs or discover sources of others
-  
 ---
 
 ## Citations
@@ -382,7 +382,7 @@ class: title-slide, middle, center
 
 ---
 
-## Zotero exercises (10 min)
+## Zotero exercises (15 min)
 
 .pull-left[
 * Add a paper to a collection: 
@@ -416,7 +416,7 @@ layout: true
 
 ---
 
-## Literature search workflow (Exercise)
+## Exercise: Literature search workflow (15 min)
 
 .right-column[.center-right[
 1. Find highly cited articles with Google Scholar (or specific articles with [Elicit](www.elicit.com))
@@ -436,3 +436,8 @@ knitr::include_graphics("figures/zotero_sync_researchrabbit.png")
 knitr::include_graphics("figures/zotero_addtocollection_browser.png")
 ```
 ]
+
+???
+30 min total for the presentation (without exercises)
+11 min for ResearchRabbit & Elicit
+19 for Zotero
