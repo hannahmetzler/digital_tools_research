@@ -31,6 +31,10 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Research designs and workflows to ensure transparent and reproducible results [[slides](https://hannahmetzler.github.io/digital_tools_research/03_research_workflow/index.html)]
 
 * Digitally enhanced literature search and management [[slides](https://hannahmetzler.github.io/digital_tools_research/04_literature/index.html#1)]
+    * ResearchRabbit & Elicit exercise: [[slides](https://hannahmetzler.eu/digital_tools_research/04_literature/index.html#12)]
+    * Optional exercises: 
+        * Zotero:  [[slides](https://hannahmetzler.eu/digital_tools_research/04_literature/index.html#23)]
+        * Literature search workflow with Elicit & Research Rabbit & Zotero [[slides](https://hannahmetzler.eu/digital_tools_research/04_literature/index.html#24)]
 
 * Good documentation practices [[slides](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html)] [[exercise: document your repositories](https://hannahmetzler.github.io/digital_tools_research/05_documentation/slides/index.html#/8)]
    
