@@ -65,7 +65,7 @@ We will cover the following digital tools in both talks and exercises:
 
 Tools we cover in our talks, but not exercises:
 
-* Hypothesis.io
+* [Hypothes.is](www.hypothes.is)
 * R markdown, Jupyter notebooks
 
 Tools we mention briefly, but do not cover in detail - you can try them out during the exercises:

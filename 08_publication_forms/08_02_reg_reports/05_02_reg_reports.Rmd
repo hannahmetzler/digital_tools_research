@@ -159,4 +159,4 @@ layout: true
 
 * In the list of journals that accept [Registered Reports](https://www.cos.io/initiatives/registered-reports), check for journals in your discipline. 
 
-* Check if some journals in your discipline are listed on the [TOP factor](https://topfactor.org/) ranking
+* Check if some journals in your discipline are listed on the [TOP factor](https://topfactor.org/journals/) ranking
