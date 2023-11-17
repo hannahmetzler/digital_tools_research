@@ -4,6 +4,8 @@
 
 This work is usable under the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
+To be able to do the exercises in the skill training, please join it from a computer.
+
 ## Instructors
 [Hannah Metzler](https://hannahmetzler.eu/) <metzler@csh.ac.at>, PostDoc at [MedUni Vienna](https://www.meduniwien.ac.at/web/) and the [Complexity Science Hub Vienna](https://www.csh.ac.at/).
 
