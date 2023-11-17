@@ -55,11 +55,13 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 ## Tool overview
 
-We will cover the following digital tools in talks and exercises:
+We will cover the following digital tools in both talks and exercises:
 
 * Repositories: [Open Science Framework](www.osf.io)
 * Literature: [ResearchRabbit](www.researchrabbit.ai), [Elicit](www.elicit.com), [Zotero](www.zotero.org)
 * Documentation: [Markdown](https://www.markdownguide.org/),  [Open Science Framework](www.osf.io)
+* [License Chooser](https://github.com/JanaLasser/digitalisation-in-research-module-2)
+* Finding open & reproducible journals: [Sherpa Romeo](https://www.sherpa.ac.uk/romeo/), [TOP factor ranking](https://topfactor.org/)
 
 Tools we cover in our talks, but not exercises:
 
@@ -70,8 +72,10 @@ Tools we mention briefly, but do not cover in detail - you can try them out duri
 
 * Code or project documentation: [Github](www.github.com)
 * Pads: [HackMD](https://hackmd.io/), [Riseup](https://pad.riseup.net/)
-* Wikis: [Torchpad](www.torchpad.com)
-* Collaborative Writing: GoogleDocs, [Overleaf](www.overleaf.com), Office in OneCloud, Authorea
+* Wikis: [Torchpad](http://torchpad.com/)
+* Collaborative Writing: GoogleDocs, [Overleaf](www.overleaf.com), Office in OneCloud, [Authorea](https://www.authorea.com/)
+
+
    
 
 ## Preparation for participants
