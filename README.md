@@ -11,6 +11,19 @@ To be able to do the exercises in the skill training, please join it from a comp
 
 [Jana Lasser](https://www.janalasser.at/) <jana.lasser@tugraz.at>, Professor for Computational Social Sciences and Humanities (W3, interim), Marie Curie Fellow at [TU Graz](https://www.tugraz.at/home/), associate faculty at the [Complexity Science Hub Vienna](https://www.csh.ac.at/).
 
+## Saving slides as PDF
+
+Hannah's slides (blue background):
+1. open slides in web browser
+2. press keys ctrl + p
+3. save PDF to your computer
+
+Jana's slides (white background):
+1. open slides in web browser, appending the URL with "?rpint-pdf" (exmaple: https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html?print-pdf)
+2. press keys ctrl + p
+3. save PDF to your computer
+
+
 ## Introduction
 
 In this one-day training, we will provide insights and hands-on experience for digital methods that are used for a broad range of activities in daily research practice.
