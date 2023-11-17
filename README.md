@@ -19,7 +19,7 @@ Hannah's slides (blue background):
 3. save PDF to your computer
 
 Jana's slides (white background):
-1. open slides in web browser, appending the URL with "?rpint-pdf" (exmaple: https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html?print-pdf)
+1. open slides in web browser, appending the URL with "?print-pdf" (exmaple: https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html?print-pdf)
 2. press keys ctrl + p
 3. save PDF to your computer
 
