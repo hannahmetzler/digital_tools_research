@@ -55,20 +55,23 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 ## Tool overview
 
-We will cover the following digital tools and formats in exercises:
-    * Repositories: [Open Science Framework](www.osf.io)
-    * Literature: [ResearchRabbit](www.researchrabbit.ai), [Elicit](www.elicit.com), [Zotero](www.zotero.org)
-    * Documentation: [Markdown](https://www.markdownguide.org/)
+We will cover the following digital tools in talks and exercises:
+
+* Repositories: [Open Science Framework](www.osf.io)
+* Literature: [ResearchRabbit](www.researchrabbit.ai), [Elicit](www.elicit.com), [Zotero](www.zotero.org)
+* Documentation: [Markdown](https://www.markdownguide.org/)
 
 Tools we cover in our talks, but not exercises:
-    * Hypothesis.io
-    * R markdown, Jupyter notebooks
+
+* Hypothesis.io
+* R markdown, Jupyter notebooks
 
 Tools we mention briefly, but do not cover in detail - you can try them out during the exercises:
-    * Code or project documentation: [Github](www.github.com)
-    * Pads: [HackMD](https://hackmd.io/), [Riseup](https://pad.riseup.net/)
-    * Wikis: [Torchpad](www.torchpad.com)
-    * Collaborative Writing: GoogleDocs, [Overleaf](www.overleaf.com), Office in OneCloud, Authorea
+
+* Code or project documentation: [Github](www.github.com)
+* Pads: [HackMD](https://hackmd.io/), [Riseup](https://pad.riseup.net/)
+* Wikis: [Torchpad](www.torchpad.com)
+* Collaborative Writing: GoogleDocs, [Overleaf](www.overleaf.com), Office in OneCloud, Authorea
    
 
 ## Preparation for participants
