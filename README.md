@@ -59,7 +59,7 @@ We will cover the following digital tools in talks and exercises:
 
 * Repositories: [Open Science Framework](www.osf.io)
 * Literature: [ResearchRabbit](www.researchrabbit.ai), [Elicit](www.elicit.com), [Zotero](www.zotero.org)
-* Documentation: [Markdown](https://www.markdownguide.org/)
+* Documentation: [Markdown](https://www.markdownguide.org/),  [Open Science Framework](www.osf.io)
 
 Tools we cover in our talks, but not exercises:
 
@@ -88,6 +88,8 @@ To make full use of the sessions, please join the training from a computer or la
     * If you want to use the exercise for your own research: think about a project (finished or ongoing) you would like to document and bring the relevant files.
 
 ## Saving slides as PDF
+
+These slides will remain online, but if you want to download them anyways: 
 
 Hannah's slides (blue background):
 1. open slides in web browser
