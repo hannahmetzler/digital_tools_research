@@ -107,6 +107,6 @@ Jana's slides (white background):
 
 ## More resources
 
-If you want more content on the topics we cover, checkout the 2-day version of this training from the year 2021 here: [https://github.com/JanaLasser/digitalisation-in-research-module-2](https://github.com/JanaLasser/digitalisation-in-research-module-2)
+If you want more content on the topics we cover, checkout the 2-day version of this training here: [https://github.com/JanaLasser/digitalisation-in-research-module-2](https://github.com/JanaLasser/digitalisation-in-research-module-2)
 
 
