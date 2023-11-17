@@ -4,25 +4,10 @@
 
 This work is usable under the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
-To be able to do the exercises in the skill training, please join it from a computer.
-
 ## Instructors
-[Hannah Metzler](https://hannahmetzler.eu/) <metzler@csh.ac.at>, PostDoc at [MedUni Vienna](https://www.meduniwien.ac.at/web/) and the [Complexity Science Hub Vienna](https://www.csh.ac.at/).
+[Hannah Metzler](https://hannahmetzler.eu/) <metzler@csh.ac.at>, PostDoc at [MedUni Vienna](https://www.meduniwien.ac.at/web/) and the [Complexity Science Hub Vienna](https://www.csh.ac.at/). Psychology & Computational Social Science.
 
-[Jana Lasser](https://www.janalasser.at/) <jana.lasser@tugraz.at>, Professor for Computational Social Sciences and Humanities (W3, interim), Marie Curie Fellow at [TU Graz](https://www.tugraz.at/home/), associate faculty at the [Complexity Science Hub Vienna](https://www.csh.ac.at/).
-
-## Saving slides as PDF
-
-Hannah's slides (blue background):
-1. open slides in web browser
-2. press keys ctrl + p
-3. save PDF to your computer
-
-Jana's slides (white background):
-1. open slides in web browser, appending the URL with "?print-pdf" (exmaple: https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html?print-pdf)
-2. press keys ctrl + p
-3. save PDF to your computer
-
+[Jana Lasser](https://www.janalasser.at/) <jana.lasser@tugraz.at>, Professor for Computational Social Sciences and Humanities (W3, interim), Marie Curie Fellow at [TU Graz](https://www.tugraz.at/home/), associate faculty at the [Complexity Science Hub Vienna](https://www.csh.ac.at/). Physics & Data Science & Computational Social Science.
 
 ## Introduction
 
@@ -82,3 +67,14 @@ To make full use of the sessions, please join the training from a computer or la
     * Make an account on [OSF](https://osf.io/) (Open Science Framework) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).
     * If you want to use the exercise for your own research: think about a project (finished or ongoing) you would like to document and bring the relevant files.
 
+## Saving slides as PDF
+
+Hannah's slides (blue background):
+1. open slides in web browser
+2. press keys ctrl + p
+3. save PDF to your computer
+
+Jana's slides (white background):
+1. open slides in web browser, appending the URL with "?print-pdf" (exmaple: https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html?print-pdf)
+2. press keys ctrl + p
+3. save PDF to your computer
