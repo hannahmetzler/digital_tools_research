@@ -100,3 +100,9 @@ Jana's slides (white background):
 1. open slides in web browser, appending the URL with "?print-pdf" (exmaple: https://hannahmetzler.eu/digital_tools_research/05_documentation/slides/index.html?print-pdf)
 2. press keys ctrl + p
 3. save PDF to your computer
+
+## More resources
+
+If you want more content on the topics we cover, checkout the 2-day version of this training from the year 2021 here: [https://github.com/JanaLasser/digitalisation-in-research-module-2](https://github.com/JanaLasser/digitalisation-in-research-module-2)
+
+
