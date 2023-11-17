@@ -22,7 +22,7 @@ The Skills Training is structured into four major areas of activity that researc
 
 Every topic will feature an introduction into the challenges and possibilities that **digitized practices** bring in the respective area of research practice. Our experts will show examples of best practices and introduce free and **open tools** that can be used by researchers to digitally enhance their workflows and make them **efficient and transparent**. Since learning happens best through doing, this training will be very “hands on” and participants are asked to bring their **own research projects** to the training and implement workflows that they have learned about right away and in their own research context.
 
-## Overview
+## Content Overview
 
 * Introduction and overview [[slides](https://hannahmetzler.github.io/digital_tools_research/01_intro/index.html)]
 
@@ -52,6 +52,23 @@ Every topic will feature an introduction into the challenges and possibilities t
         * [[Finding reproducible journals](https://hannahmetzler.github.io/digital_tools_research/08_publication_forms/08_02_reg_reports/index.html#6)]
         
 * Final discussion questions [[slide](https://hannahmetzler.eu/digital_tools_research/02_reproducibility_intro/index.html#15)]
+
+## Tool overview
+
+We will cover the following digital tools and formats in exercises:
+    * Repositories: [Open Science Framework](www.osf.io)
+    * Literature: [ResearchRabbit](www.researchrabbit.ai), [Elicit](www.elicit.com), [Zotero](www.zotero.org)
+    * Documentation: [Markdown](https://www.markdownguide.org/)
+
+Tools we cover in our talks, but not exercises:
+    * Hypothesis.io
+    * R markdown, Jupyter notebooks
+
+Tools we mention briefly, but do not cover in detail - you can try them out during the exercises:
+    * Code or project documentation: [Github](www.github.com)
+    * Pads: [HackMD](https://hackmd.io/), [Riseup](https://pad.riseup.net/)
+    * Wikis: [Torchpad](www.torchpad.com)
+    * Collaborative Writing: GoogleDocs, [Overleaf](www.overleaf.com), Office in OneCloud, Authorea
    
 
 ## Preparation for participants
